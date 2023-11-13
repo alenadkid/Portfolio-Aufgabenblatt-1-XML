@@ -1,0 +1,15 @@
+<!ELEMENT Bestellung (Besteller, Pizza+)>
+<!ELEMENT Besteller (Name, Anschrift, Student)>
+<!ELEMENT Anschrift (Strasse, Hausnummer, PLZ, Ort)>
+<!ELEMENT Student ((Matrikelnummer, Studienort) | keinStudent)>
+<!ELEMENT Pizza (Belag+)>
+<!ELEMENT Belag (#PCDATA)>
+<!ATTLIST Belag Salami (scharf|nichtscharf) #IMPLIED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Strasse (#PCDATA)>
+<!ELEMENT Hausnummer (#PCDATA)>
+<!ELEMENT PLZ (#PCDATA)>
+<!ELEMENT Ort (#PCDATA)>
+<!ELEMENT Matrikelnummer (#PCDATA)>
+<!ELEMENT Studienort (#PCDATA)>
+<!ELEMENT keinStudent EMPTY>
