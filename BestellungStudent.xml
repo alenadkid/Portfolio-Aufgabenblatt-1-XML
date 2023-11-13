@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bestellung SYSTEM "pizza.dtd">
+<Bestellung>
+    <Besteller>
+        <Name>Ergin</Name>
+        <Anschrift>
+            <Strasse>Ranntalstraße</Strasse>
+            <Hausnummer>8</Hausnummer>
+            <PLZ>75196</PLZ>
+            <Ort>Remchingen</Ort>
+        </Anschrift>
+        <Student>
+            <Matrikelnummer>49862866</Matrikelnummer>
+            <Studienort>Karlsruhe</Studienort>
+        </Student>
+    </Besteller>
+    <Pizza>
+        <Belag>Tomate</Belag>
+        <Belag>Käse</Belag>
+        <Belag Salami="scharf">Salami</Belag>
+    </Pizza>
+    <Pizza>
+        <Belag>Knoblauch</Belag>
+        <Belag>Schinken</Belag>
+        <Belag>Rucola</Belag>
+    </Pizza>
+    <Pizza>
+        <Belag>Thunfisch</Belag>
+        <Belag>Zwiebel</Belag>
+    </Pizza>
+</Bestellung>
