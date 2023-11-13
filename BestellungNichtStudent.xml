@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bestellung SYSTEM "pizza.dtd">
+<Bestellung>
+    <Besteller>
+        <Name>DeMarco</Name>
+        <Anschrift>
+            <Strasse>Goethestraße</Strasse>
+            <Hausnummer>31</Hausnummer>
+            <PLZ>74076</PLZ>
+            <Ort>Heilbronn</Ort>
+        </Anschrift>
+        <Student>
+            <keinStudent/>
+        </Student>
+    </Besteller>
+    <Pizza>
+        <Belag>Schinken</Belag>
+        <Belag>Mozzarella</Belag>
+        <Belag Salami="scharf">Salami</Belag>
+    </Pizza>
+</Bestellung>
