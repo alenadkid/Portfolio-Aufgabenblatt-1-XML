@@ -15,17 +15,18 @@
         </Student>
     </Besteller>
     <Pizza>
-        <Belag>Tomate</Belag>
-        <Belag>Käse</Belag>
-        <Belag Salami="scharf">Salami</Belag>
+        <Kaese hatKaese="nein"></Kaese>
+        <Schinken hatSchinken="ja"></Schinken>
+        <Salami scharf="ja"></Salami>
     </Pizza>
     <Pizza>
-        <Belag>Knoblauch</Belag>
-        <Belag>Schinken</Belag>
-        <Belag>Rucola</Belag>
+        <Kaese hatKaese="ja"></Kaese>
+        <Schinken hatSchinken="ja"></Schinken>
+        <Salami scharf="nein"></Salami>
     </Pizza>
     <Pizza>
-        <Belag>Thunfisch</Belag>
-        <Belag>Zwiebel</Belag>
+        <Kaese hatKaese="ja"></Kaese>
+        <Schinken hatSchinken="nein"></Schinken>
+        <Salami scharf="ja"></Salami>
     </Pizza>
 </Bestellung>
